@@ -1,0 +1,117 @@
+classes:
+  bard:
+    # What is the name for the class?
+    name: 'Bard'
+
+    # Permission to access the class
+    permission: 'thecore.class.bard'
+
+    # How long in seconds should the class warm up for>
+    class_warmup_seconds: 10
+
+    # Can the class be used during pvptimer?
+    pvptimer_access: true
+
+    # Should the energy feature be enabled?
+    energy: true
+
+    # What is the maximum amount of energy a user can have at one time?
+    maximum_energy: 100
+
+    # Armour required to activate class
+    armour:
+      helmet: 'GOLD_HELMET'
+      chestplate: 'GOLD_CHESTPLATE'
+      leggings: 'GOLD_LEGGINGS'
+      boots: 'GOLD_BOOTS'
+
+    # What effects should be on the user when not in combat?
+    passive_effects:
+      - 'SPEED:2'
+
+    # What effects should always be active on the user?
+    constant_effects:
+      - 'WEAKNESS:1'
+
+    # Should holding certain items give effects?
+    holdable: true
+
+    # If true, what items can be held and what effects should they give?
+    holdable_items:
+      BLAZE_POWDER:
+        # What item should be held?
+        material: 'BLAZE_POWDER'
+
+        # What effects should be given?
+        effects:
+          # POTIONTYPE:AMOUNT:TIME(seconds)
+          - 'STRENGTH:2:20'
+
+        # Should this effect the class user directly?
+        effect_user: true
+
+        # Should this effect be given to faction members?
+        effect_faction_members: true
+
+        # Should this effect be given to allied members?
+        effect_allied_members: false
+
+        # Should this effect be given to enemy players?
+        effect_enemy_players: false
+
+        # If any of the above are enabled, what block radius should sharing occur within?
+        shared_effect_radius: 20
+
+        # Does this item use energy?
+        energy_use: true
+
+        # How much energy per second should it use?
+        energy_per_second: 5
+
+    # Should clicking certain items give effects?
+    clickable: true
+
+    # If true, what items can be clicked and what effects should they give?
+    clickable_items:
+      SPIDER_EYE:
+        # What item should be clicked?
+        material: 'SPIDER_EYE'
+
+        # What effects should be given?
+        effects:
+          # POTIONTYPE:AMOUNT:TIME(seconds)
+          - 'POISON:1:10'
+
+        # Should this effect the class user directly?
+        effect_user: false
+
+        # Should this effect be given to faction members?
+        effect_faction_members: false
+
+        # Should this effect be given to allied members?
+        effect_allied_members: true
+
+        # Should this effect be given to enemy players?
+        effect_enemy_players: true
+
+        # If any of the above are enabled, what block radius should sharing occur within?
+        shared_effect_radius: 10
+
+        # Does this item use energy?
+        energy_use: true
+
+        # How much energy should this user per click?
+        energy_per_use: 50
+
+        # How long (in seconds) should the cooldown be?
+        cooldown: 10
+
+    # Should this class be immune to certain types of damage?
+    immunities:
+      - 'FALL_DAMAGE'
+
+    # Should this class have archer tag enabled?
+    archer_tag: false
+
+
+

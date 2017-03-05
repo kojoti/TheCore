@@ -1,0 +1,172 @@
+# AUTHENTICATION KEY (SERVER WILL NOT START WITHOUT IT)
+key: "key_here"
+
+chat_format: "%prefix%%player%&e: &f%message%"
+
+# Should obsidian generators be disabled?
+disable_obsidian_generators: true
+
+# What timezone should I read?
+server_time_zone: "EST"
+
+# How far should the warzone be?
+warzone_radius: 850
+
+# If you accept donations, you should have your donation here
+donate_url: "store.hctribes.com"
+
+# What should the spawn buffer be?
+spawn_buffer: 128
+
+# What map number is it?
+map_number: 1
+
+# Is KitMap enabled?
+kit_map: false
+
+# You can set a list of faction names you don't want to be made
+disallowed_faction_names:
+    - "kohieotw"
+    - "kohisotw"
+    - "hcteams"
+    - "hcteamsseotw"
+    - "hcteamssotw"
+    - "para"
+    - "parahcf"
+    - "parasotw"
+    - "paraeotw"
+
+# Stop enchantments being over a certain level
+enchantment_limits:
+    PROTECTION_ENVIRONMENTAL: 1
+    DAMAGE_ALL: 1
+    ARROW_KNOCKBACK: 0
+    KNOCKBACK: 0
+    FIRE_ASPECT: 0
+    THORNS: 0
+    ARROW_FIRE: 1
+    ARROW_DAMAGE: 4
+   
+# Stop potions being over a certain level
+potion_limits:
+    STRENGTH: 0
+    WEAKNESS: 0
+    SLOWNESS: 0
+    INVISIBILITY: 0
+    POISON: 0
+    
+# How long should the road be?
+road_lengths:
+    NORMAL: 4000
+    NETHER: 4000
+
+# What size should the border be?
+border_sizes:
+    NORMAL: 2000
+    NETHER: 1000
+    THE_END: 1500
+
+# What's the spawn radius?
+spawn_radius_map:
+    NORMAL: 50
+    NETHER: 25
+    THE_END: 15
+    
+# Maximum chunks per claim?
+max_chunks_per_claim: 16
+
+# Should staff be notified when diamonds are mined?
+diamond_ore_alerts: false
+
+# Minimum name size for subclaims
+subclaim_name_characters_min: 3
+
+# Maximum name size for subclaims
+subclaim_name_characters_max: 16
+
+# Minimum faction name characters
+faction_name_characters_min: 3
+
+# Maximum faction name characters
+faction_name_characters_max: 16
+
+# Maximum members per faction
+max_members_per_faction: 25
+
+# What should the road distance be?
+road_distance:  2500
+
+# What should the minimum road height be?
+road_min_height: 0
+
+#  What should the maximum height be?
+road_max_height: 256
+
+end_portal_radius: 20
+end_portal_center: 750
+
+# How long should the deathban time be? (In milliseconds, this is default 1 hour)
+default_deathban_duration: 3600000
+
+# What should the faction relation colours be?
+teammate_colour: "GREEN"
+ally_colour: "GOLD"
+enemy_colour: "RED"
+
+# What should the claim colours be?
+safezone_colour: "AQUA"
+road_colour: "GOLD"
+warzone_colour: "LIGHT_PURPLE"
+wilderness_colour: "DARK_GREEN"
+
+# Scoreboard title
+scoreboard_title: "&6&lHCTRIBES &c[Map 1]   "
+
+# Maximum allies per faction
+max_allies_per_faction: 0
+
+# Maximum amount of claims a faction can own
+max_claims_per_faction: 8
+
+# Allow faction claims beside roads
+allow_claiming_besides_roads: true
+
+# DTR Refresh rate (Milliseconds)
+dtr_millis_between_updates: 45000
+dtr_increment_between_updates: 0.1
+
+# Maximum amount of DTR per faction
+maximum_dtr: 6.0
+
+# XP Multipliers for doing stuff
+exp_multiplier_general: 2.0
+exp_multiplier_fishing: 2.0
+exp_multiplier_smelting: 2.0
+exp_multiplier_looting_per_level: 1.5
+exp_multiplier_luck_per_level: 1.5
+exp_multiplier_fortune_per_level: 1.5
+
+# How many points should be lost when a faction member dies?
+conquest_point_loss_per_death: 20
+
+# How many point should conquest require to be won?
+conquest_required_win_points: 300
+
+# Should staff be alerted when diamonds are mined?
+found_diamonds_alerts: true
+
+# How long should the combat log entity be alive?
+combat_log_despawn_ticks: 600
+
+# Should combat logging be prevented?
+combat_log_prevention_enabled: true
+
+# Should enchantments be disabled?
+no_enchants: false
+
+#Snatch configuration
+snatch:
+   enabled: true
+   pointsToWin: 300
+   pointsPerSecond: 2
+   kingName: "&e&lTHE KING"

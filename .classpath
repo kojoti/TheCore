@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/src (1)/KitmapHCF/HCF/deps/paperspigot-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/src (1)/KitmapHCF/HCF/deps/PermissionsEx-1.23.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/src (1)/KitmapHCF/HCF/deps/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/src (1)/KitmapHCF/HCF/deps/paperspigot.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/src (1)/KitmapHCF/HCF/deps/worldedit-bukkit-6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/src (1)/KitmapHCF/HCF/deps/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/spigot-1.7.10-1.8-R0.1-1656.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/Ecopt HCF/Ecopt HCF/PaperSpigot-1.7.10-R0.1-SNAPSHOT-b39.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/lombok-1.16.4.jar"/>
+	<classpathentry kind="src" path="/Flare (Maattah and Descriptive&apos;s Core)"/>
+	<classpathentry kind="lib" path="C:/Users/Rhian/Projects/TheCore ~ iHCF Fork/dependencies/lombok-1.16.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rhian/Projects/TheCore ~ iHCF Fork/dependencies/paperspigot-1.7.10-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rhian/Projects/TheCore ~ iHCF Fork/dependencies/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rhian/Projects/TheCore ~ iHCF Fork/dependencies/spigot-api-1.8.8-R0.1-SNAPSHOT-latest-shaded.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rhian/Projects/TheCore ~ iHCF Fork/dependencies/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rhian/Projects/TheCore ~ iHCF Fork/dependencies/WorldEdit.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

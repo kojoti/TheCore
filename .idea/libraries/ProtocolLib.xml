@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ProtocolLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dependencies/ProtocolLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dependencies/Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dependencies/WorldEdit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dependencies/lombok-1.16.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
